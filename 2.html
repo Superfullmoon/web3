@@ -4,13 +4,12 @@
  <title>WEB1-CSS</title>
  <meta charset="utf-8">
  <style>
- body{
+  {
    margin:0px;
-
  }
 
  a {
-   color:black;
+   color:blue;
    text-decoration:none;
    }
    h1{
@@ -48,12 +47,42 @@
      <li><a href="2.html">CSS</a></li>
      <li><a href="3.html">JAVASCRIPT</a></li>
     </ol>
-
    <div id="article">
+     <input id="night_day" type="button" value="night" onclick="
+     if(document.querySelector('#night_day').value === 'night'){
+      document.querySelector('body').style.backgroundColor= 'black';
+      document.querySelector('body').style.color='white';
+      document.querySelector('#night_day').value='day';
+     } else {
+       document.querySelector('body').style.backgroundColor='white';
+       document.querySelector('body').style.color='black';
+       document.querySelector('#night_day').value='night';
+     }
+     ">
     <h2>CSS</h2>
     <p>
     <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank" title="html5 specifition">Cascading Style Sheets (CSS)<</a>
     is a style sheet language used for describing the presentation of a document written in a markup language.[1]
+    Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML,
+    the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech,
+    or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages,
+    user interfaces for web applications, and user interfaces for many mobile applications.[2]
+    Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML,
+    the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech,
+    or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages,
+    user interfaces for web applications, and user interfaces for many mobile applications.[2]
+    Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML,
+    the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech,
+    or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages,
+    user interfaces for web applications, and user interfaces for many mobile applications.[2]
+    Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML,
+    the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech,
+    or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages,
+    user interfaces for web applications, and user interfaces for many mobile applications.[2]
+    Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML,
+    the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech,
+    or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages,
+    user interfaces for web applications, and user interfaces for many mobile applications.[2]
     Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML,
     the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech,
     or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages,
@@ -79,6 +108,7 @@
 <noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
 </div>
 </p>
+<p>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -92,5 +122,6 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+</p>
 </body>
 </html>
